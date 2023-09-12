@@ -9,7 +9,7 @@ impl Registers {
         self.gen[index]
     }
 
-    fn set(&mut self, index: usize, val: u8) {
+    pub fn set(&mut self, index: usize, val: u8) {
         self.gen[index] = val
     }
 
